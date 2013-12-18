@@ -1,0 +1,22 @@
+{
+    "name": "crit/markdown",
+    "description": "PHP markdown abstraction class",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Crit Russell",
+            "email": "crit.gfg@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "michelf/php-markdown": "1.4.*@dev",
+        "nickcernis/html-to-markdown": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Markdown": "src/"
+        }
+    }
+}
