@@ -2,7 +2,7 @@
 namespace Markdown;
 
 use \HTML_To_Markdown;
-use Michelf\MarkdownExtra;
+use \Michelf\MarkdownExtra;
 
 /**
  * Class Markdown
